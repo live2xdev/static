@@ -71,7 +71,7 @@
   </footer>
   
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <!--[if lt IE 9]><!-->
+  <!--[if lt IE 9]>
     <!-- load jQuery from Google's CDN -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- fallback to Microsoft's Ajax CDN -->
@@ -81,9 +81,9 @@
     <!-- Migrate older jQuery code to jQuery 1.9+ -->
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js"></script>
     <!-- fallback to local file -->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-migrate-1.2.1.min.js"><\/script>')</script>
-  <!--<![endif]-->
-  <!--[if (gte IE 9)|!(IE)]><!-->
+    <script>window.jQuery.migrateMute || document.write('<script src="js/vendor/jquery-migrate-1.2.1.min.js"><\/script>')</script>
+  <![endif]-->
+  <!--[if (gte IE 9)|!(IE)]>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- fallback to Microsoft's Ajax CDN -->
     <script>window.jQuery || document.write('<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"><\/script>')</script>
@@ -92,8 +92,8 @@
     <!-- Migrate older jQuery code to jQuery 1.9+ -->
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-3.0.0.min.js"></script>
     <!-- fallback to local file -->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-migrate-3.0.0.min.js"><\/script>')</script>
-  <!--<![endif]-->
+    <script>window.jQuery.migrateMute || document.write('<script src="js/vendor/jquery-migrate-3.0.0.min.js"><\/script>')</script>
+  <![endif]-->
   <!-- Include all Bootstrap JavaScript plugins -->
   <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- fallback Bootstrap JavaScript to local file -->
